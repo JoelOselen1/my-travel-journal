@@ -1,0 +1,65 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin:0;
+  font-family: 'popins', Sans-Serif;
+}
+nav {
+  height: 70px ;
+  display: flex;
+  padding:20px 36px;
+  background-color: crimson;
+}
+
+.nav--title {
+  margin:auto;
+  margin-right: 400px;
+  color:white;
+  
+}
+
+
+.earth--logo{
+  max-width: 30px;
+  max-height: 20px;
+  margin-left: 350px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.card{
+  display: flex;
+ 
+}
+
+.card--image{
+  display: flex;
+  height: 250px;
+  width: 170px;
+  margin: 50px;
+  border-radius: 5px;
+
+}
+
+.card--info{
+  display: grid;
+}
+.location--img {
+  width: 30px;
+  margin-top: 60px;
+  
+}
+.card--title{
+margin-top: -45px;
+}
+.card--date{
+font-weight: bold;
+margin-top: -50px;
+
+}
+.card--desc{
+margin-top: -70px;
+margin-right: 350px;
+  
+}
